@@ -1,0 +1,28 @@
+# Fichiers de données volumineux - NE PAS PUSH
+*.csv
+!sample_data.csv
+rna_import_*.csv
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Secrets
+config.py
+passwords.txt
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
